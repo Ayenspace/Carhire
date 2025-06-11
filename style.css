@@ -1,0 +1,105 @@
+body{
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0%;
+    line-height: 1.6;
+    background-color: aliceblue;
+}
+
+header{
+    background: transparent;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a{
+    color: blanchedalmond;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.hero{
+    background: #008cc0;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; 
+}
+
+.btn{
+    background: #fff;
+    color: #008cc0;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section{
+    padding: 20px;
+    background: white;
+    margin: 20px;
+}
+
+/* Slideshow styles */
+.slideshow {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 500px;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slideshow-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.slideshow-controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button{
+    background-color: #008cc0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background: #222;
+    color: pink;
+    text-align: center;
+    padding: 10px;
+}
+
